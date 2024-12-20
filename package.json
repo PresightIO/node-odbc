@@ -1,7 +1,7 @@
 {
   "name": "@presightio/odbc",
   "description": "unixodbc bindings for node",
-  "version": "2.4.9",
+  "version": "2.4.10-rc1",
   "homepage": "http://github.com/markdirish/node-odbc/",
   "main": "lib/odbc.js",
   "types": "lib/odbc.d.ts",
