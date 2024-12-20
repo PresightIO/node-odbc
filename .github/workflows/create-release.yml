@@ -132,7 +132,7 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./windows-binaries/odbc-v${{ steps.package-version.outputs.current-version }}-win32-x64-napi-v3.tar.gz
-        asset_name: odbc-v${{ steps.package-version.outputs.current-version }}-win32-x64-napi-v3.tar.gz
+        asset_name: "@presightio/odbc-v${{ steps.package-version.outputs.current-version }}-win32-x64-napi-v3.tar.gz"
         asset_content_type: application/gzip
 
     - name: Upload odbc-v${{ steps.package-version.outputs.current-version }}-win32-x64-napi-v4.tar.gz
@@ -142,7 +142,7 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./windows-binaries/odbc-v${{ steps.package-version.outputs.current-version }}-win32-x64-napi-v4.tar.gz
-        asset_name: odbc-v${{ steps.package-version.outputs.current-version }}-win32-x64-napi-v4.tar.gz
+        asset_name: "@presightio/odbc-v${{ steps.package-version.outputs.current-version }}-win32-x64-napi-v4.tar.gz"
         asset_content_type: application/gzip
 
     - name: Upload odbc-v${{ steps.package-version.outputs.current-version }}-win32-x64-napi-v5.tar.gz
@@ -152,7 +152,7 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./windows-binaries/odbc-v${{ steps.package-version.outputs.current-version }}-win32-x64-napi-v5.tar.gz
-        asset_name: odbc-v${{ steps.package-version.outputs.current-version }}-win32-x64-napi-v5.tar.gz
+        asset_name: "@presightio/odbc-v${{ steps.package-version.outputs.current-version }}-win32-x64-napi-v5.tar.gz"
         asset_content_type: application/gzip
 
     - name: Upload odbc-v${{ steps.package-version.outputs.current-version }}-win32-x64-napi-v6.tar.gz
@@ -162,7 +162,7 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./windows-binaries/odbc-v${{ steps.package-version.outputs.current-version }}-win32-x64-napi-v6.tar.gz
-        asset_name: odbc-v${{ steps.package-version.outputs.current-version }}-win32-x64-napi-v6.tar.gz
+        asset_name: "@presightio/odbc-v${{ steps.package-version.outputs.current-version }}-win32-x64-napi-v6.tar.gz"
         asset_content_type: application/gzip
 
     # Macos binaries
@@ -173,7 +173,7 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./macos-binaries/odbc-v${{ steps.package-version.outputs.current-version }}-darwin-x64-napi-v3.tar.gz
-        asset_name: odbc-v${{ steps.package-version.outputs.current-version }}-darwin-x64-napi-v3.tar.gz
+        asset_name: "@presightio/odbc-v${{ steps.package-version.outputs.current-version }}-darwin-x64-napi-v3.tar.gz"
         asset_content_type: application/gzip
 
     - name: Upload odbc-v${{ steps.package-version.outputs.current-version }}-darwin-x64-napi-v4.tar.gz
@@ -183,7 +183,7 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./macos-binaries/odbc-v${{ steps.package-version.outputs.current-version }}-darwin-x64-napi-v4.tar.gz
-        asset_name: odbc-v${{ steps.package-version.outputs.current-version }}-darwin-x64-napi-v4.tar.gz
+        asset_name: "@presightio/odbc-v${{ steps.package-version.outputs.current-version }}-darwin-x64-napi-v4.tar.gz"
         asset_content_type: application/gzip
 
     - name: Upload odbc-v${{ steps.package-version.outputs.current-version }}-darwin-x64-napi-v5.tar.gz
@@ -193,7 +193,7 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./macos-binaries/odbc-v${{ steps.package-version.outputs.current-version }}-darwin-x64-napi-v5.tar.gz
-        asset_name: odbc-v${{ steps.package-version.outputs.current-version }}-darwin-x64-napi-v5.tar.gz
+        asset_name: "@presightio/odbc-v${{ steps.package-version.outputs.current-version }}-darwin-x64-napi-v5.tar.gz"
         asset_content_type: application/gzip
 
     - name: Upload odbc-v${{ steps.package-version.outputs.current-version }}-darwin-x64-napi-v6.tar.gz
@@ -203,7 +203,7 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./macos-binaries/odbc-v${{ steps.package-version.outputs.current-version }}-darwin-x64-napi-v6.tar.gz
-        asset_name: odbc-v${{ steps.package-version.outputs.current-version }}-darwin-x64-napi-v6.tar.gz
+        asset_name: "@presightio/odbc-v${{ steps.package-version.outputs.current-version }}-darwin-x64-napi-v6.tar.gz"
         asset_content_type: application/gzip
 
     # Linux binaries
@@ -214,7 +214,7 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./linux-binaries/odbc-v${{ steps.package-version.outputs.current-version }}-linux-x64-napi-v3.tar.gz
-        asset_name: odbc-v${{ steps.package-version.outputs.current-version }}-linux-x64-napi-v3.tar.gz
+        asset_name: "@presightio/odbc-v${{ steps.package-version.outputs.current-version }}-linux-x64-napi-v3.tar.gz"
         asset_content_type: application/gzip
 
     - name: Upload odbc-v${{ steps.package-version.outputs.current-version }}-linux-x64-napi-v4.tar.gz
@@ -224,7 +224,7 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./linux-binaries/odbc-v${{ steps.package-version.outputs.current-version }}-linux-x64-napi-v4.tar.gz
-        asset_name: odbc-v${{ steps.package-version.outputs.current-version }}-linux-x64-napi-v4.tar.gz
+        asset_name: "@presightio/odbc-v${{ steps.package-version.outputs.current-version }}-linux-x64-napi-v4.tar.gz"
         asset_content_type: application/gzip
 
     - name: Upload odbc-v${{ steps.package-version.outputs.current-version }}-linux-x64-napi-v5.tar.gz
@@ -234,7 +234,7 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./linux-binaries/odbc-v${{ steps.package-version.outputs.current-version }}-linux-x64-napi-v5.tar.gz
-        asset_name: odbc-v${{ steps.package-version.outputs.current-version }}-linux-x64-napi-v5.tar.gz
+        asset_name: "@presightio/odbc-v${{ steps.package-version.outputs.current-version }}-linux-x64-napi-v5.tar.gz"
         asset_content_type: application/gzip
 
     - name: Upload odbc-v${{ steps.package-version.outputs.current-version }}-linux-x64-napi-v6.tar.gz
@@ -244,5 +244,5 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./linux-binaries/odbc-v${{ steps.package-version.outputs.current-version }}-linux-x64-napi-v6.tar.gz
-        asset_name: odbc-v${{ steps.package-version.outputs.current-version }}-linux-x64-napi-v6.tar.gz
+        asset_name: "@presightio/odbc-v${{ steps.package-version.outputs.current-version }}-linux-x64-napi-v6.tar.gz"
         asset_content_type: application/gzip
